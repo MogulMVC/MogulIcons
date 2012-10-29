@@ -236,27 +236,45 @@ $iconsDirectory: '/framework/img/icon/';
 }
 
 .MIconLoadingBlack, .MIconLoadingBlack16x16{@extend .MIcon;
-  background-image:url($iconsDirectory + "loading_black_16x16.gif");
+  background-image:url($iconsDirectory + "loading_black_150x150.gif");
+  background-size:16px 16px;
   height:16px;
   width:16px;
 }
 
 .MIconLoadingBlack50x50{@extend .MIcon;
-  background-image:url($iconsDirectory + "loading_black_50x50.gif");
+  background-image:url($iconsDirectory + "loading_black_150x150.gif");
+  background-size:50px 50px;
   height:50px;
   width:50px;
 }
 
 .MIconLoadingBlack150x150{@extend .MIcon;
   background-image:url($iconsDirectory + "loading_black_150x150.gif");
+  background-size:150px 150px;
   height:150px;
   width:150px;
 }
 
-.MIconLoadingWhite, .MIconLoadingWhite50x50{@extend .MIcon;
-  background-image:url($iconsDirectory + "loading_white_50x50.gif");
+.MIconLoadingWhite, .MIconLoadingWhite16x16{@extend .MIcon;
+  background-image:url($iconsDirectory + "loading_white_150x150.gif");
+  background-size:16px 16px;
+  height:16px;
+  width:16px;
+}
+
+.MIconLoadingWhite50x50{@extend .MIcon;
+  background-image:url($iconsDirectory + "loading_white_150x150.gif");
+  background-size:50px 50px;
   height:50px;
   width:50px;
+}
+
+.MIconLoadingWhite150x150{@extend .MIcon;
+  background-image:url($iconsDirectory + "loading_white_150x150.gif");
+  background-size:150px 150px;
+  height:150px;
+  width:150px;
 }
 
 .MIconLock, .MIconLock16x16{@extend .MIcon;
