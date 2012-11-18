@@ -319,30 +319,6 @@ $iconsDirectory: '/framework/img/icon/';
   width:12px;
 }
 
-.MIconShareThis, .MIconShareThis16x16{@extend .MIcon;
-  background-image:url($iconsDirectory + "sharethis-16x16.png");
-  height:16px;
-  width:16px;
-}
-
-.MIconShareThis30x30{@extend .MIcon;
-  background-image:url($iconsDirectory + "sharethis-30x30.png");
-  height:30px;
-  width:30px;
-}
-
-.MIconShareThis50x50{@extend .MIcon;
-  background-image:url($iconsDirectory + "sharethis-50x50.png");
-  height:50px;
-  width:50px;
-}
-
-.MIconShareThis150x150{@extend .MIcon;
-  background-image:url($iconsDirectory + "sharethis-150x150.png");
-  height:150px;
-  width:150px;
-}
-
 .MIconTwitter, .MIconTwitter16x16{@extend .MIcon;
   background-image:url($iconsDirectory + "twitter-16x16.png");
   height:16px;
