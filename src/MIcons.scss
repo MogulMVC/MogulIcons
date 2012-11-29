@@ -42,7 +42,7 @@ $iconsDirectory: '/framework/img/icon/';
   width:16px;
 }
 
-.MIconArrorLeft, .MIconArrowLeft16x16{@extend .MIcon;
+.MIconArrowLeft, .MIconArrowLeft16x16{@extend .MIcon;
   background-image:url($iconsDirectory + "arrow-left-16x16.png");
   background-position:0 0;
   cursor:pointer;

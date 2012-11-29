@@ -1,5 +1,5 @@
 3.2.1 (Media Mark)
-1cb024da6233eaa74e4d617fe7b3dddeb9c49b6a
+5b5d94c254969a7fd0b663b0fb088d8d4adcc78f
 o:Sass::Tree::RootNode
 :@template"$// Config
 $iconsDirectory: '/framework/img/icon/';
@@ -45,7 +45,7 @@ $iconsDirectory: '/framework/img/icon/';
   width:16px;
 }
 
-.MIconArrorLeft, .MIconArrowLeft16x16{@extend .MIcon;
+.MIconArrowLeft, .MIconArrowLeft16x16{@extend .MIcon;
   background-image:url($iconsDirectory + "arrow-left-16x16.png");
   background-position:0 0;
   cursor:pointer;
@@ -516,8 +516,8 @@ MIcon;	i,;
 [ o;#;$;%;["height;@;o;;@;"	16px;;&;	i.;"i ;
 [ o;#;$;%;["
 width;@;o;;@;"	16px;;&;	i/;"i ;
-[ o;;["*.MIconArrorLeft, .MIconArrowLeft16x16;o;;" ;[o;;[o;
-;o;;{ ; 0;@+;[o;!;["MIconArrorLeft;@+;	i2;	i2o;;[o;
+[ o;;["*.MIconArrowLeft, .MIconArrowLeft16x16;o;;" ;[o;;[o;
+;o;;{ ; 0;@+;[o;!;["MIconArrowLeft;@+;	i2;	i2o;;[o;
 ;o;;{ ; 0;@+;[o;!;["MIconArrowLeft16x16;@+;	i2;	i2;	i2;@;T;	i2;"i ;
 [o;'
 ;@;(["."
