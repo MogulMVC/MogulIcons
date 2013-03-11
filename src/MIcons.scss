@@ -1,10 +1,10 @@
 /* 
  * MIcons.css by Alan James
- * version 130211
+ * version 130310
  * recommended Sass version 2.3.1
  */
 
-$version:"130211";
+$version:"130310";
 
 // Config
 $iconsDirectory: '/framework/img/icon/';
@@ -221,6 +221,30 @@ $iconsDirectory: '/framework/img/icon/';
 
 .MIconFacebook150x150{@extend .MIcon;
   background-image:url($iconsDirectory + "facebook-150x150.png");
+  height:150px;
+  width:150px;
+}
+
+.MIconGear, .MIconGear16x16{@extend .MIcon;
+  background-image:url($iconsDirectory + "gear-16x16.png");
+  height:16px;
+  width:16px;
+}
+
+.MIconGear30x30{@extend .MIcon;
+  background-image:url($iconsDirectory + "gear-30x30.png");
+  height:30px;
+  width:30px;
+}
+
+.MIconGear50x50{@extend .MIcon;
+  background-image:url($iconsDirectory + "gear-50x50.png");
+  height:50px;
+  width:50px;
+}
+
+.MIconGear150x150{@extend .MIcon;
+  background-image:url($iconsDirectory + "gear-150x150.png");
   height:150px;
   width:150px;
 }
