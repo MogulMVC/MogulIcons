@@ -1,10 +1,10 @@
 /* 
  * MIcons.css by Alan James
- * version 130528
+ * version 130627
  * recommended Sass version 2.3.1
  */
 
-$version:"130528";
+$version:"130627";
 
 // Config
 $iconsDirectory: '/framework/img/icon/';
@@ -44,6 +44,8 @@ $iconsDirectory: '/framework/img/icon/';
   height:400px;
 }
 
+// All icons after this point are in alphabetical order
+
 .MIconAdd, .MIconAdd16x16{@extend .MIcon;
   background-image:url($iconsDirectory + "add-16x16.png");
   height:16px;
@@ -82,43 +84,38 @@ $iconsDirectory: '/framework/img/icon/';
   }
 }
 
-.MAvatar, .MAvatar16x16{@extend .MIcon;
+.MIconAvatar, .MIconAvatar16x16{@extend .MIcon;
   background-image:url($iconsDirectory + "avatar-16x16.png");
   height:16px;
   width:16px;
 }
+    .MIconAvatar30x30{@extend .MIcon;
+      background-image:url($iconsDirectory + "avatar-30x30.png");
+      height:30px;
+      width:30px;
+    }
+    .MIconAvatar50x50{@extend .MIcon;
+      background-image:url($iconsDirectory + "avatar-50x50.png");
+      height:50px;
+      width:50px;
+    }
+    .MIconAvatar150x150{@extend .MIcon;
+      background-image:url($iconsDirectory + "avatar-150x150.png");
+      height:150px;
+      width:150px;
+    }
+    .MIconAvatar200x200{@extend .MIcon;
+      background-image:url($iconsDirectory + "avatar-200x200.png");
+      height:200px;
+      width:200px;
+    }
+    .MIconAvatar400x400{@extend .MIcon;
+      background-image:url($iconsDirectory + "avatar-400x400.png");
+      height:400px;
+      width:400px;
+    }
 
-.MAvatar30x30{@extend .MIcon;
-  background-image:url($iconsDirectory + "avatar-30x30.png");
-  height:30px;
-  width:30px;
-}
-
-.MAvatar50x50{@extend .MIcon;
-  background-image:url($iconsDirectory + "avatar-50x50.png");
-  height:50px;
-  width:50px;
-}
-
-.MAvatar150x150{@extend .MIcon;
-  background-image:url($iconsDirectory + "avatar-150x150.png");
-  height:150px;
-  width:150px;
-}
-
-.MAvatar200x200{@extend .MIcon;
-  background-image:url($iconsDirectory + "avatar-200x200.png");
-  height:200px;
-  width:200px;
-}
-
-.MAvatar400x400{@extend .MIcon;
-  background-image:url($iconsDirectory + "avatar-400x400.png");
-  height:400px;
-  width:400px;
-}
-
-.MBackground, .MBackground20x16{@extend .MIcon;
+.MIconBackground, .MIconBackground20x16{@extend .MIcon;
   background-image:url($iconsDirectory + "background-24x16.png");
   background-repeat:no-repeat;
   height:16px;
@@ -146,24 +143,21 @@ $iconsDirectory: '/framework/img/icon/';
   height:16px;
   width:16px;
 }
-
-.MIconComplete30x30{@extend .MIcon;
-  background-image:url($iconsDirectory + "complete-30x30.png");
-  height:30px;
-  width:30px;
-}
-
-.MIconComplete50x50{@extend .MIcon;
-  background-image:url($iconsDirectory + "complete-50x50.png");
-  height:50px;
-  width:50px;
-}
-
-.MIconComplete150x150{@extend .MIcon;
-  background-image:url($iconsDirectory + "complete-150x150.png");
-  height:150px;
-  width:150px;
-}
+    .MIconComplete30x30{@extend .MIcon;
+      background-image:url($iconsDirectory + "complete-30x30.png");
+      height:30px;
+      width:30px;
+    }
+    .MIconComplete50x50{@extend .MIcon;
+      background-image:url($iconsDirectory + "complete-50x50.png");
+      height:50px;
+      width:50px;
+    }
+    .MIconComplete150x150{@extend .MIcon;
+      background-image:url($iconsDirectory + "complete-150x150.png");
+      height:150px;
+      width:150px;
+    }
 
 .MIconDocument, .MIconDocument12x16{@extend .MIcon;
   background-image:url($iconsDirectory + "document-12x16.png");
@@ -182,72 +176,105 @@ $iconsDirectory: '/framework/img/icon/';
   height:16px;
   width:16px;
 }
-
-.MIconEmbed30x30{@extend .MIcon;
-  background-image:url($iconsDirectory + "embed-30x30.png");
-  height:30px;
-  width:30px;
-}
-
-.MIconEmbed50x50{@extend .MIcon;
-  background-image:url($iconsDirectory + "embed-50x50.png");
-  height:50px;
-  width:50px;
-}
-
-.MIconEmbed150x150{@extend .MIcon;
-  background-image:url($iconsDirectory + "embed-150x150.png");
-  height:150px;
-  width:150px;
-}
+    .MIconEmbed30x30{@extend .MIcon;
+      background-image:url($iconsDirectory + "embed-30x30.png");
+      height:30px;
+      width:30px;
+    }
+    .MIconEmbed50x50{@extend .MIcon;
+      background-image:url($iconsDirectory + "embed-50x50.png");
+      height:50px;
+      width:50px;
+    }
+    .MIconEmbed150x150{@extend .MIcon;
+      background-image:url($iconsDirectory + "embed-150x150.png");
+      height:150px;
+      width:150px;
+    }
 
 .MIconFacebook, .MIconFacebook16x16{@extend .MIcon;
   background-image:url($iconsDirectory + "facebook-16x16.png");
   height:16px;
   width:16px;
 }
+    .MIconFacebook30x30{@extend .MIcon;
+      background-image:url($iconsDirectory + "facebook-30x30.png");
+      height:30px;
+      width:30px;
+    }
+    .MIconFacebook50x50{@extend .MIcon;
+      background-image:url($iconsDirectory + "facebook-50x50.png");
+      height:50px;
+      width:50px;
+    }
+    .MIconFacebook150x150{@extend .MIcon;
+      background-image:url($iconsDirectory + "facebook-150x150.png");
+      height:150px;
+      width:150px;
+    }
 
-.MIconFacebook30x30{@extend .MIcon;
-  background-image:url($iconsDirectory + "facebook-30x30.png");
-  height:30px;
-  width:30px;
+.MIconFailure, .MIconFailure16x16{@extend .MIcon;
+  background-image:url($iconsDirectory + "failure-16x16.png");
+  height:16px;
+  width:16px;
 }
-
-.MIconFacebook50x50{@extend .MIcon;
-  background-image:url($iconsDirectory + "facebook-50x50.png");
-  height:50px;
-  width:50px;
-}
-
-.MIconFacebook150x150{@extend .MIcon;
-  background-image:url($iconsDirectory + "facebook-150x150.png");
-  height:150px;
-  width:150px;
-}
+    .MIconFailure30x30{@extend .MIcon;
+      background-image:url($iconsDirectory + "failure-30x30.png");
+      height:30px;
+      width:30px;
+    }
+    .MIconFailure50x50{@extend .MIcon;
+      background-image:url($iconsDirectory + "failure-50x50.png");
+      height:50px;
+      width:50px;
+    }
+    .MIconFailure150x150{@extend .MIcon;
+      background-image:url($iconsDirectory + "failure-150x150.png");
+      height:150px;
+      width:150px;
+    }
 
 .MIconGear, .MIconGear16x16{@extend .MIcon;
   background-image:url($iconsDirectory + "gear-16x16.png");
   height:16px;
   width:16px;
 }
-
-.MIconGear30x30{@extend .MIcon;
-  background-image:url($iconsDirectory + "gear-30x30.png");
-  height:30px;
-  width:30px;
+    .MIconGear30x30{@extend .MIcon;
+      background-image:url($iconsDirectory + "gear-30x30.png");
+      height:30px;
+      width:30px;
+    }
+    .MIconGear50x50{@extend .MIcon;
+      background-image:url($iconsDirectory + "gear-50x50.png");
+      height:50px;
+      width:50px;
+    }
+    .MIconGear150x150{@extend .MIcon;
+      background-image:url($iconsDirectory + "gear-150x150.png");
+      height:150px;
+      width:150px;
+    }
+    
+.MIconGooglePlus, .MIconGooglePlus16x16{@extend .MIcon;
+  background-image:url($iconsDirectory + "googleplus-16x16.png");
+  height:16px;
+  width:16px;
 }
-
-.MIconGear50x50{@extend .MIcon;
-  background-image:url($iconsDirectory + "gear-50x50.png");
-  height:50px;
-  width:50px;
-}
-
-.MIconGear150x150{@extend .MIcon;
-  background-image:url($iconsDirectory + "gear-150x150.png");
-  height:150px;
-  width:150px;
-}
+    .MIconGooglePlus30x30{@extend .MIcon;
+      background-image:url($iconsDirectory + "googleplus-30x30.png");
+      height:30px;
+      width:30px;
+    }
+    .MIconGooglePlus50x50{@extend .MIcon;
+      background-image:url($iconsDirectory + "googleplus-50x50.png");
+      height:50px;
+      width:50px;
+    }
+    .MIconGooglePlus150x150{@extend .MIcon;
+      background-image:url($iconsDirectory + "googleplus-150x150.png");
+      height:150px;
+      width:150px;
+    }
 
 .MIconGrid, .MIconGrid16x16{@extend .MIcon;
   background-image:url($iconsDirectory + "grid-16x16.png");
@@ -267,155 +294,7 @@ $iconsDirectory: '/framework/img/icon/';
   width:16px;
 }
 
-.MIconLoadingBlack, .MIconLoadingBlack16x16{@extend .MIcon;
-  background-image:url($iconsDirectory + "loading-black-150x150.gif");
-  background-size:16px 16px;
-  height:16px;
-  width:16px;
-}
-
-.MIconLoadingBlack50x50{@extend .MIcon;
-  background-image:url($iconsDirectory + "loading-black-150x150.gif");
-  background-size:50px 50px;
-  height:50px;
-  width:50px;
-}
-
-.MIconLoadingBlack150x150{@extend .MIcon;
-  background-image:url($iconsDirectory + "loading-black-150x150.gif");
-  background-size:150px 150px;
-  height:150px;
-  width:150px;
-}
-
-.MIconLoadingWhite, .MIconLoadingWhite16x16{@extend .MIcon;
-  background-image:url($iconsDirectory + "loading-white-150x150.gif");
-  background-size:16px 16px;
-  height:16px;
-  width:16px;
-}
-
-.MIconLoadingWhite50x50{@extend .MIcon;
-  background-image:url($iconsDirectory + "loading-white-150x150.gif");
-  background-size:50px 50px;
-  height:50px;
-  width:50px;
-}
-
-.MIconLoadingWhite150x150{@extend .MIcon;
-  background-image:url($iconsDirectory + "loading-white-150x150.gif");
-  background-size:150px 150px;
-  height:150px;
-  width:150px;
-}
-
-.MIconLock, .MIconLock16x16{@extend .MIcon;
-  background-image:url($iconsDirectory + "lock-16x16.png");
-  height:16px;
-  width:16px;
-}
-
-.MIconLock64x64{@extend .MIcon;
-  background-image:url($iconsDirectory + "lock-64x64.png");
-  height:64px;
-  width:64px;
-}
-
-.MIconOpenShare, .MIconOpenShare16x16{@extend .MIcon;
-  background-image:url($iconsDirectory + "openshare-16x16.png");
-  height:16px;
-  width:16px;
-}
-
-.MIconOpenShare30x30{@extend .MIcon;
-  background-image:url($iconsDirectory + "openshare-30x30.png");
-  height:30px;
-  width:30px;
-}
-
-.MIconOpenShare50x50{@extend .MIcon;
-  background-image:url($iconsDirectory + "openshare-50x50.png");
-  height:50px;
-  width:50px;
-}
-
-.MIconOpenShare150x150{@extend .MIcon;
-  background-image:url($iconsDirectory + "openshare-150x150.png");
-  height:150px;
-  width:150px;
-}
-
-.MIconPoster, .MIconPoster12x16{@extend .MIcon;
-  background-image:url($iconsDirectory + "poster-12x16.png");
-  height:16px;
-  width:12px;
-}
-
-.MIconTwitter, .MIconTwitter16x16{@extend .MIcon;
-  background-image:url($iconsDirectory + "twitter-16x16.png");
-  height:16px;
-  width:16px;
-}
-
-.MIconTwitter30x30{@extend .MIcon;
-  background-image:url($iconsDirectory + "twitter-30x30.png");
-  height:30px;
-  width:30px;
-}
-
-.MIconTwitter50x50{@extend .MIcon;
-  background-image:url($iconsDirectory + "twitter-50x50.png");
-  height:50px;
-  width:50px;
-}
-
-.MIconTwitter150x150{@extend .MIcon;
-  background-image:url($iconsDirectory + "twitter-150x150.png");
-  height:150px;
-  width:150px;
-}
-
-.MIconWarning, .MIconWarning16x16{@extend .MIcon;
-  background-image:url($iconsDirectory + "warning-16x16.png");
-  height:16px;
-  width:16px;
-}
-
-.MIconWarning30x30{@extend .MIcon;
-  background-image:url($iconsDirectory + "warning-30x30.png");
-  height:30px;
-  width:30px;
-}
-
-.MIconWarning50x50{@extend .MIcon;
-  background-image:url($iconsDirectory + "warning-50x50.png");
-  height:50px;
-  width:50px;
-}
-
-.MIconWarning150x150{@extend .MIcon;
-  background-image:url($iconsDirectory + "warning-150x150.png");
-  height:150px;
-  width:150px;
-}
-
-.MIconComplete150{
-  background-image:url("/framework/img/icons/complete-150x150.png");
-  background-repeat:no-repeat;
-  height:150px;
-  margin-right:1.2em;
-  width:150px;
-}
-
-.MIconWarning150{
-  background-image:url("/framework/img/icons/warning-150x150.png");
-  background-repeat:no-repeat;
-  height:150px;
-  margin-right:1.2em;
-  width:150px;
-}
-
-.MLoadingBG{
+.MIconLoadingBG{
   display:none;
   height:11.75em;
   left:50%;
@@ -426,40 +305,181 @@ $iconsDirectory: '/framework/img/icon/';
   width:11.75em;
 }
 
-.MIconLoadingBlack150{
-  background-image:url("/framework/img/icons/loading-black-150x150.gif");
-  background-repeat:no-repeat;
-  height:150px;
-  margin-right:1.2em;
-  width:150px;
-}
-
-.MIconLoadingBlack50{
-  background-image:url("/framework/img/icons/loading-black-50x50.gif");
-  background-repeat:no-repeat;
-  height:50px;
-  margin:3.95em;
-  width:50px;
-}
-
-.MIconLoadingWhite50{
-  background-image:url("/framework/img/icons/loading-white-50x50.gif");
-  background-repeat:no-repeat;
-  height:50px;
-  margin:3.95em;
-  width:50px;
-}
-
-.MIconLoadingBlack16{
-  background-image:url("/framework/img/icons/loading-black-16x16.gif");
-  background-repeat:no-repeat;
+.MIconLoadingBlack, .MIconLoadingBlack16x16{@extend .MIcon;
+  background-image:url($iconsDirectory + "loading-black-150x150.gif");
+  background-size:16px 16px;
   height:16px;
   width:16px;
 }
+    .MIconLoadingBlack30x30{@extend .MIcon;
+      background-image:url($iconsDirectory + "loading-black-150x150.gif");
+      background-size:30px 30px;
+      height:30px;
+      width:30px;
+    }
+    .MIconLoadingBlack50x50{@extend .MIcon;
+      background-image:url($iconsDirectory + "loading-black-150x150.gif");
+      background-size:50px 50px;
+      height:50px;
+      width:50px;
+    }
+    .MIconLoadingBlack150x150{@extend .MIcon;
+      background-image:url($iconsDirectory + "loading-black-150x150.gif");
+      background-size:150px 150px;
+      height:150px;
+      width:150px;
+    }
 
-.MIconLoadingButton{@extend .MIconLoadingBlack16;
+.MIconLoadingButton{@extend .MIconLoadingBlack;
   float:left;
   margin-right:.8em;
   margin-top:.1em;
   opacity:.35;
 }
+
+.MIconLoadingWhite, .MIconLoadingWhite16x16{@extend .MIcon;
+  background-image:url($iconsDirectory + "loading-white-150x150.gif");
+  background-size:16px 16px;
+  height:16px;
+  width:16px;
+}
+    .MIconLoadingWhite30x30{@extend .MIcon;
+      background-image:url($iconsDirectory + "loading-white-150x150.gif");
+      background-size:30px 30px;
+      height:30px;
+      width:30px;
+    }
+    .MIconLoadingWhite50x50{@extend .MIcon;
+      background-image:url($iconsDirectory + "loading-white-150x150.gif");
+      background-size:50px 50px;
+      height:50px;
+      width:50px;
+    }
+    .MIconLoadingWhite150x150{@extend .MIcon;
+      background-image:url($iconsDirectory + "loading-white-150x150.gif");
+      background-size:150px 150px;
+      height:150px;
+      width:150px;
+    }
+
+.MIconLock, .MIconLock16x16{@extend .MIcon;
+  background-image:url($iconsDirectory + "lock-16x16.png");
+  height:16px;
+  width:16px;
+}
+    .MIconLock64x64{@extend .MIcon;
+      background-image:url($iconsDirectory + "lock-64x64.png");
+      height:64px;
+      width:64px;
+    }
+
+.MIconOpenShare, .MIconOpenShare16x16{@extend .MIcon;
+  background-image:url($iconsDirectory + "openshare-16x16.png");
+  height:16px;
+  width:16px;
+}
+    .MIconOpenShare30x30{@extend .MIcon;
+      background-image:url($iconsDirectory + "openshare-30x30.png");
+      height:30px;
+      width:30px;
+    }
+    .MIconOpenShare50x50{@extend .MIcon;
+      background-image:url($iconsDirectory + "openshare-50x50.png");
+      height:50px;
+      width:50px;
+    }
+    .MIconOpenShare150x150{@extend .MIcon;
+      background-image:url($iconsDirectory + "openshare-150x150.png");
+      height:150px;
+      width:150px;
+    }
+
+.MIconPoster, .MIconPoster12x16{@extend .MIcon;
+  background-image:url($iconsDirectory + "poster-12x16.png");
+  height:16px;
+  width:12px;
+}
+
+.MIconRSS, .MIconRSS16x16{@extend .MIcon;
+  background-image:url($iconsDirectory + "rss-16x16.png");
+  height:16px;
+  width:16px;
+}
+    .MIconRSS30x30{@extend .MIcon;
+      background-image:url($iconsDirectory + "rss-30x30.png");
+      height:30px;
+      width:30px;
+    }
+    .MIconRSS50x50{@extend .MIcon;
+      background-image:url($iconsDirectory + "rss-50x50.png");
+      height:50px;
+      width:50px;
+    }
+    .MIconRSS150x150{@extend .MIcon;
+      background-image:url($iconsDirectory + "rss-150x150.png");
+      height:150px;
+      width:150px;
+    }
+
+.MIconTumblr, .MIconTumblr16x16{@extend .MIcon;
+  background-image:url($iconsDirectory + "tumblr-16x16.png");
+  height:16px;
+  width:16px;
+}
+    .MIconTumblr30x30{@extend .MIcon;
+      background-image:url($iconsDirectory + "tumblr-30x30.png");
+      height:30px;
+      width:30px;
+    }
+    .MIconTumblr50x50{@extend .MIcon;
+      background-image:url($iconsDirectory + "tumblr-50x50.png");
+      height:50px;
+      width:50px;
+    }
+    .MIconTumblr150x150{@extend .MIcon;
+      background-image:url($iconsDirectory + "tumblr-150x150.png");
+      height:150px;
+      width:150px;
+    }
+
+.MIconTwitter, .MIconTwitter16x16{@extend .MIcon;
+  background-image:url($iconsDirectory + "twitter-16x16.png");
+  height:16px;
+  width:16px;
+}
+    .MIconTwitter30x30{@extend .MIcon;
+      background-image:url($iconsDirectory + "twitter-30x30.png");
+      height:30px;
+      width:30px;
+    }
+    .MIconTwitter50x50{@extend .MIcon;
+      background-image:url($iconsDirectory + "twitter-50x50.png");
+      height:50px;
+      width:50px;
+    }
+    .MIconTwitter150x150{@extend .MIcon;
+      background-image:url($iconsDirectory + "twitter-150x150.png");
+      height:150px;
+      width:150px;
+    }
+
+.MIconWarning, .MIconWarning16x16{@extend .MIcon;
+  background-image:url($iconsDirectory + "warning-16x16.png");
+  height:16px;
+  width:16px;
+}
+    .MIconWarning30x30{@extend .MIcon;
+      background-image:url($iconsDirectory + "warning-30x30.png");
+      height:30px;
+      width:30px;
+    }
+    .MIconWarning50x50{@extend .MIcon;
+      background-image:url($iconsDirectory + "warning-50x50.png");
+      height:50px;
+      width:50px;
+    }
+    .MIconWarning150x150{@extend .MIcon;
+      background-image:url($iconsDirectory + "warning-150x150.png");
+      height:150px;
+      width:150px;
+    }
