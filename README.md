@@ -3,6 +3,12 @@ MogulIcons
 
 MogulIcons is a Sass based icon library.
 
+Install
+----
+To install you can download from GitHub or use Bower.
+
+`bower install mogul-icons`
+
 Demo
 ---
 
