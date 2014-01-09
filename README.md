@@ -1,5 +1,19 @@
-Mogul Icons is an icon set containing anything from social icons to ui element icons.
+MogulIcons
+---
 
-Icons are named based on their size. Thus ".MIconClose16x16" is a close icon that is 16 pixels tall by 16 pixles wide.
+MogulIcons is a Sass based icon library.
 
-If the size is not specifed, ".MIconClose", the smallest icon is used.
+Demo
+---
+
+Visit MogulMVC to see a list of MogulIcons icons.
+
+[Demo](http://mogulmvc.com/css/icons/)
+
+Author
+---
+Alan James: [alanjames1987@gmail.com](mailto:alanjames1987@gmail.com)
+
+License
+---
+Licensed under [MIT](http://mogulmvc.com/general/license).
