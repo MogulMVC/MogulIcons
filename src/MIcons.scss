@@ -288,40 +288,6 @@ $iconsDirectory: '../img/';
   width:16px;
 }
 
-.MIconHeaderMenu, .MIconHeaderMenu22x22{@extend .MIcon;
-  background-image:url($iconsDirectory + "header-menu-22x22.png");
-  background-position: 0 0;
-  height:22px;
-  width:22px;
-  
-  &:hover{
-    background-position: 0 -36px
-  }
-  
-}
-.MIconHeaderSettings,.MIconHeaderSettings22x22{@extend .MIcon;
-  background-image:url($iconsDirectory + "header-settings-22x22.png");
-  background-position: 0 0;
-  height:22px;
-  width:22px;
-  
-  &:hover{
-    background-position: 0 -36px
-  }
-  
-}
-.MIconHeaderTools,.MIconHeaderTools22x22{@extend .MIcon;
-  background-image:url($iconsDirectory + "header-tools-22x22.png");
-  background-position: 0 0;
-  height:22px;
-  width:22px;
-  
-  &:hover{
-    background-position: 0 -36px
-  }
-  
-}
-
 .MIconList, .MIconList16x16{@extend .MIcon;
   background-image:url($iconsDirectory + "list-16x16.png");
   height:16px;
