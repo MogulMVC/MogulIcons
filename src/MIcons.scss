@@ -1,10 +1,10 @@
 /* 
  * MIcons.css by Alan James
- * version 1.1.0
+ * version 1.1.1
  * recommended Sass version 2.3.1
  */
 
-$version:"1.1.0";
+$version:"1.1.1";
 
 // Config
 $iconsDirectory: '../img/';
@@ -290,18 +290,36 @@ $iconsDirectory: '../img/';
 
 .MIconHeaderMenu, .MIconHeaderMenu22x22{@extend .MIcon;
   background-image:url($iconsDirectory + "header-menu-22x22.png");
+  background-position: 0 0;
   height:22px;
   width:22px;
+  
+  &:hover{
+    background-position: 0 -36px
+  }
+  
 }
 .MIconHeaderSettings,.MIconHeaderSettings22x22{@extend .MIcon;
   background-image:url($iconsDirectory + "header-settings-22x22");
+  background-position: 0 0;
   height:22px;
   width:22px;
+  
+  &:hover{
+    background-position: 0 -36px
+  }
+  
 }
 .MIconHeaderTools,.MIconHeaderTools22x22{@extend .MIcon;
   background-image:url($iconsDirectory + "header-tools-22x22");
+  background-position: 0 0;
   height:22px;
   width:22px;
+  
+  &:hover{
+    background-position: 0 -36px
+  }
+  
 }
 
 .MIconList, .MIconList16x16{@extend .MIcon;
