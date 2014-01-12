@@ -260,7 +260,7 @@
     background-position: 0 -36px; }
 
 .MIconHeaderSettings, .MIconHeaderSettings22x22 {
-  background-image: url("../img/header-settings-22x22");
+  background-image: url("../img/header-settings-22x22.png");
   background-position: 0 0;
   height: 22px;
   width: 22px; }
@@ -268,7 +268,7 @@
     background-position: 0 -36px; }
 
 .MIconHeaderTools, .MIconHeaderTools22x22 {
-  background-image: url("../img/header-tools-22x22");
+  background-image: url("../img/header-tools-22x22.png");
   background-position: 0 0;
   height: 22px;
   width: 22px; }
